@@ -1,0 +1,149 @@
+
+@charset "utf-8";
+
+html{
+
+  color: #000;
+  background: #fff;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+
+}
+html * {
+  outline: none;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html,
+body {
+  font-family: sans-serif;
+  height: 100%;
+  width:100%;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,
+th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+  margin: 0;
+  padding: 0;
+}
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+del {
+  text-decoration: line-through;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+i,
+var {
+  font-style: normal;
+  font-weight: 500;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+  font-weight: 500;
+}
+q:before,
+q:after {
+  content: '';
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ins,
+a,
+a:active,
+a:visited,
+a:link,
+a:hover{
+  text-decoration: none;
+}
+.clearfix:after{
+   display: table;
+   clear: both;
+   content: "";
+   visibility: hidden;;
+   height: 0;
+ }
+body{
+  height:100%;
+  font-family: "Microsoft YaHei";
+}
+
+input[type=checkbox]:after,
+input[type=radio]:after{
+  content: '';
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: url(../images/icon/302.png) no-repeat;
+  background-size:100% 100%;
+}
+input[type=checkbox],
+input[type=radio]{
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+  border: 0;
+  outline: 0!important;
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+input[type=checkbox]:checked:after,
+input[type=radio]:checked:after{
+  background: url(../images/icon/301.png) no-repeat;
+  background-size:100% 100%;
+}
+
